@@ -1,0 +1,70 @@
+@font-face {
+    font-family: bookerly;
+    src: url("Bookerly/Bookerly-Regular.ttf");
+    font-family: bookerly-bold;
+    src: url("Bookerly/Bookerly-Bold.ttf");
+}
+
+body {
+    margin: 0;
+    background-color: rgb(207, 207, 207);
+    /*background-image: url("https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002159/GSFC_20171208_Archive_e002159~orig.jpg");*/
+    background-size: cover;
+}
+
+#container {
+    display: block;
+    width: 33%;
+    height: 600px;
+    background-color: rgb(226, 223, 211);
+    margin-top: 30px;
+    margin-left: 30%;
+    border-left: 40px solid rgb(41, 41, 41);
+    border-top: 40px solid rgb(41, 41, 41);
+    border-right: 40px solid rgb(41, 41, 41);
+    border-bottom: 80px solid rgb(41, 41, 41);
+    border-radius: 30px;
+}
+
+.bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+}
+
+.top {
+    height: 15px;
+    background-color: rgb(78, 78, 78);
+
+}
+
+.options {
+    display: flex;
+    height: 40px;
+    background-color: rgb(226, 223, 211);
+    border-bottom: 3px solid rgb(78, 78, 78)
+
+}
+
+.option {
+    background-color: blue;
+    height: 40px;
+    width: 30px;
+}
+
+.one {
+    background-color: red;
+
+
+}
+
+.two {
+    background-color: green;
+
+}
+
+.three {
+    background-color: yellow;
+
+}
